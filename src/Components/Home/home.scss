@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  body{
+    padding-top: 140px;
+  }
+.mySwiper{
+    img{
+       width:1920px;;
+        height: 751px;
+        top: 151px;
+        gap: 0px;
+        opacity: 0px;
+    }
+}
+.boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    padding-top: 62px;
+    padding-right: 25px;
+      .box{
+        width: 472.66px;
+        height: 300.38px;
+        gap: 0px;
+        border-radius: 10px;
+        opacity: 0px;
+        h3{
+            font-family: Quicksand;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28.8px;
+            text-align: left;
+            width: 283.12px;
+            height: 87.59px;
+            top: -1px;
+            gap: 0px;
+            opacity: 0px;
+            padding-top: 80px;
+            padding-left: 50px;
+        
+}
+        button{
+            font-family: Quicksand;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28.8px;
+            text-align: left;
+            background: #F53E32;
+            font-family: Quicksand;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 15.6px;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #fff;
+            margin-top: 110px;
+            margin-left: 50px;
+            width: 103.61px;
+            height: 31.59px;
+            top: 195.39px;
+            left: 50px;
+            padding: 8px 9px 8px 13px;
+            gap: 0px;
+            border-radius: 4px;
+            border: none;
+            opacity: 0px;
+
+        }
+      }
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+      .card{
+        width: 400px;
+        height: 403.75px;
+        top: 312px;
+        left: 760px;
+        gap: 0px;
+        border-radius: 5px;
+        background: #efeded;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        text-align: center;
+        padding-top: 30px;
+
+        img{
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            background: inherit;
+        }
+        button{
+            width: 62.5px;
+            height: 15px;
+            top: 8px;
+            left: 13px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Quicksand;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 15.6px;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color:#FFFFFF;
+            background: #F53E32;
+            width: 103.61px;
+            height: 31.59px;
+            top: 195.39px;
+            left: 50px;
+            padding: 8px 9px 8px 13px;
+            gap: 0px;
+            border-radius: 4px;
+            border: none;
+            opacity: 0px;
+            margin-top: 10px;
+        }
+      }
+}

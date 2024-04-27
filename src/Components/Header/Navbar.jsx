@@ -8,6 +8,7 @@ import React from 'react';
 import './Navbar.scss';
 import { FiSearch } from "react-icons/fi";
 import { IoPersonOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import Logo from '../Header/Img/Logo.svg'
 
 const Navbar = () => {
@@ -85,7 +86,10 @@ const Navbar = () => {
         </div>
 
         <div className="person">
+            <Link to={'/register'}>
             <button><IoPersonOutline /></button>
+            </Link>
+           
             <span>Account</span>
             <button><AiTwotoneHeart /></button> 
             <span>Wishlist</span>
