@@ -14,13 +14,13 @@ const Register = () => {
 
   const handleLogin = (event)=>{
     event.preventDefault()
-    setLoading(true)
+  
     let user = {
       username,
       password
     }
     axios
-      .post( "/auth/register", user )
+      .post( "/auth/login", user )
       .then(res => {
         console.log("res>>>", res.data.token)
         toast.success("welcome")
@@ -39,7 +39,7 @@ const Register = () => {
     <>
       <div className="line Container"><p>Login</p></div>
 
-      <div className="sign-up">
+      <div className="sign-up Container">
         <img src={logo} alt="" />
         <div className="input">
           <form onSubmit={handleLogin}>
